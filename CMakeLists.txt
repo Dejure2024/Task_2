@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.5)
 project(01.hello_world)
 
 add_executable(hello_world 
-    hello_world.cpp
     example.cpp
-    example.h    
+    example.h
+    hello_world.cpp
     hello_world.h
     move_me_out.cpp
     move_me_out.h
